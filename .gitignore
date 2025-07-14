@@ -1,0 +1,22 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.localized
+.Spotlight-V100
+.Trashes
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.suo
+*.user
+*.userosscache
+
+# Node.js (if you later use npm/yarn)
+node_modules/
+
+# Logs and temporary files
+*.log
+*.tmp
