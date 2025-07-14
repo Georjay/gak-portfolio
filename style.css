@@ -202,6 +202,11 @@ body {
     border: 1px solid var(--border);
     margin-bottom: 2rem;
     box-shadow: 0 5px 20px var(--shadow);
+
+    /* Equal Height CSS */
+    /* height: 100%; Makes the card fill the height of its parent column */
+    display: flex; /* Makes the card a flex container */
+    flex-direction: column; /* Stacks image, content, links vertically */
 }
 
 .project-card:hover {
@@ -234,6 +239,11 @@ body {
 
 .project-content {
     padding: 1.5rem;
+
+    /* Equal Height CSS - Make this section grow to fill available space */
+    flex-grow: 1;
+    display: flex; /* Make project-content a flex container too */
+    flex-direction: column; /* Stack its children (title, description, tech) vertically */
 }
 
 .project-title {
@@ -256,6 +266,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
+
 .tech-tag {
     background: var(--bg-secondary);
     color: var(--accent);
@@ -269,6 +280,13 @@ body {
 .project-links {
     display: flex;
     gap: 1rem;
+}
+
+.project-links .project-link {
+    /* Existing link styles */
+    display: inline-flex; /* Make them flex items if you want more control */
+    align-items: center;
+    text-decoration: none;
 }
 
 .project-link {
