@@ -7,6 +7,10 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -67,7 +71,7 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <div class="about-content">
-                        <p>I'm a passionate full-stack developer with expertise in building scalable web applications using Django, React, and modern technologies. I specialize in creating efficient solutions that bridge frontend user experience with robust backend architecture.</p>
+                        <p>I'm a passionate full-stack developer with expertise in building scalable web applications using Django, Python, and modern technologies. I specialize in creating efficient solutions that bridge frontend user experience with robust backend architecture.</p>
                         <p>With a strong foundation in both backend and frontend development, I enjoy tackling complex challenges and delivering high-quality, maintainable code. I'm always eager to learn new technologies and contribute to innovative projects that make a real impact.</p>
                         
                         <div class="skills-grid">
@@ -76,25 +80,25 @@
                                 <h5>Django & Python</h5>
                             </div>
                             <div class="skill-item">
-                                <i class="fab fa-react"></i>
-                                <h5>React & Frontend</h5>
-                            </div>
-                            <div class="skill-item">
                                 <i class="fas fa-code"></i>
                                 <h5>FastAPI & REST APIs</h5>
                             </div>
                             <div class="skill-item">
+                                <i class="fab fa-git-alt"></i>
+                                <h5>Version Control</h5>
+                            </div>
+                            <!-- <div class="skill-item">
+                                <i class="fab fa-react"></i>
+                                <h5>React & Frontend</h5>
+                            </div> -->
+                            <!-- <div class="skill-item">
                                 <i class="fas fa-database"></i>
                                 <h5>Database Design</h5>
-                            </div>
-                            <div class="skill-item">
+                            </div> -->
+                            <!-- <div class="skill-item">
                                 <i class="fab fa-js-square"></i>
                                 <h5>JavaScript & TypeScript</h5>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fab fa-git-alt"></i>
-                                <h5>Version Control & DevOps</h5>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -108,31 +112,33 @@
             <h2 class="section-title">My Projects</h2>
             <p class="section-subtitle">A showcase of my recent work and contributions</p>
             
-            <div class="row">
+            <div class="row d-flex align-items-stretch">
                 <!-- Project 1 - Portfolio Website -->
                 <div class="col-lg-6 col-md-12">
                     <div class="project-card">
                         <div class="project-image">
-                            <i class="fas fa-user-tie" style="font-size: 3rem; color: var(--accent);"></i>
+                            <!-- <i class="fas fa-user-tie" style="font-size: 3rem; color: var(--accent);"></i> -->
                             <!-- Replace with actual project screenshot -->
-                            <!-- <img src="path/to/your/portfolio-screenshot.jpg" alt="Portfolio Website"> -->
+                            <img src="images/krife.png" alt="Portfolio Website">
                         </div>
                         <div class="project-content">
                             <h3 class="project-title">Portfolio Website</h3>
-                            <p class="project-description">A professional portfolio website showcasing projects and skills. Built with Django backend featuring dynamic content management, responsive design, and optimized performance.</p>
+                            <p class="project-description">A responsive portfolio site for Professor Edozien, built with Django. Features dynamic content management, an integrated blog, reCAPTCHA-secured forms, and performance optimizations.</p>
                             <div class="project-tech">
                                 <span class="tech-tag">Django</span>
                                 <span class="tech-tag">PostgreSQL</span>
                                 <span class="tech-tag">Bootstrap</span>
                                 <span class="tech-tag">CSS3</span>
                                 <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Google reCAPTCHA</span>
+                                <span class="tech-tag">Heroku</span>
                             </div>
                             <div class="project-links">
-                                <a href="https://edozien.net" target="_blank" class="project-link">
+                                <a href="https://prof-edozien-b43e2ed57560.herokuapp.com/" class="project-link" target="_blank" rel="noopener noreferrer">
                                     <i class="fas fa-external-link-alt"></i>
                                     Live Demo
                                 </a>
-                                <a href="#" class="project-link">
+                                <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
                                     <i class="fab fa-github"></i>
                                     GitHub
                                 </a>
@@ -150,21 +156,20 @@
                             <!-- <img src="path/to/your/fixhub-screenshot.jpg" alt="FixHub"> -->
                         </div>
                         <div class="project-content">
-                            <h3 class="project-title">FixHub (NYU Accra)</h3>
-                            <p class="project-description">A comprehensive maintenance request system for NYU Accra campus. Features ticket management, real-time status updates, user authentication, and admin dashboard for efficient facility management.</p>
+                            <h3 class="project-title">FixHub</h3>
+                            <p class="project-description">A streamlined internal request system for NYU Accra Campus. Includes request forms, an admin dashboard with analytics, email notifications, and exportable reports for efficient facility management. </p>
                             <div class="project-tech">
                                 <span class="tech-tag">Django</span>
-                                <span class="tech-tag">SQLite</span>
+                                <span class="tech-tag">PostgreSQL</span>
                                 <span class="tech-tag">Bootstrap</span>
-                                <span class="tech-tag">AJAX</span>
-                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Google reCAPTCHA</span>
                             </div>
                             <div class="project-links">
-                                <a href="#" class="project-link">
+                                <a href="https://nyuadigiforms-775ae2838c08.herokuapp.com/" class="project-link" target="_blank" rel="noopener noreferrer">
                                     <i class="fas fa-external-link-alt"></i>
                                     Live Demo
                                 </a>
-                                <a href="#" class="project-link">
+                                <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
                                     <i class="fab fa-github"></i>
                                     GitHub
                                 </a>
@@ -192,11 +197,11 @@
                                 <span class="tech-tag">TypeScript</span>
                             </div>
                             <div class="project-links">
-                                <a href="#" class="project-link">
+                                <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
                                     <i class="fas fa-external-link-alt"></i>
                                     Live Demo
                                 </a>
-                                <a href="#" class="project-link">
+                                <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
                                     <i class="fab fa-github"></i>
                                     GitHub
                                 </a>
@@ -224,11 +229,11 @@
                                 <span class="tech-tag">JavaScript</span>
                             </div>
                             <div class="project-links">
-                                <a href="#" class="project-link">
+                                <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
                                     <i class="fas fa-external-link-alt"></i>
                                     Live Demo
                                 </a>
-                                <a href="#" class="project-link">
+                                <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
                                     <i class="fab fa-github"></i>
                                     GitHub
                                 </a>
@@ -322,10 +327,10 @@
     <footer class="footer">
         <div class="container">
             <div class="social-links">
-                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/Georjay" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="mailto:george.addai.ko@gmail.com" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
             </div>
             <div class="text-center">
                 <p class="mb-0" style="color: var(--text-muted);">© 2025 George Kofi Addai. All rights reserved.</p>
